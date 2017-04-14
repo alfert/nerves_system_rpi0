@@ -21,12 +21,12 @@ config pkg, :nerves_env,
   checksum: [
     # commented out during compile/test to prevent creating new docker images
     # after every change.
-    # "nerves_defconfig",
-    # "rootfs-additions",
-    # "linux-4.4.defconfig",
-    # "fwup.conf",
-    # "cmdline.txt",
-    # "config.txt",
-    # "post-createfs.sh",
-    # "VERSION"
+    "nerves_defconfig",
+    "rootfs-additions",
+    "linux-4.4.defconfig",
+    "fwup.conf",
+    "cmdline.txt",
+    "config.txt",
+    "post-createfs.sh",
+    "VERSION"
   ]
